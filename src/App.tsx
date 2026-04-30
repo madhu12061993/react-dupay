@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './component/Banner'
 import ExploreDupay from './component/ExploreDupay'
 import Factor from './component/Factor'
+import Flag from './component/Flag'
 import Footer from './component/Footer'
 import Future from './component/Future'
 import InternationalMoneyTransfer from './component/InternationalMoneyTransfer'
@@ -21,6 +22,7 @@ function App() {
       <Trust />
       <Factor />
       <InternationalMoneyTransfer />
+      <Flag/>
       <ExploreDupay />
       <Future />
       <Footer />
