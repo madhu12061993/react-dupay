@@ -4,13 +4,14 @@ import global from "../assets/dupayAssets/svgexport-4.png";
 import mobile from "../assets/dupayAssets/svgexport-5.png";
 import mobileChat from "../assets/dupayAssets/mobilechat.webp";
 import mobilepayment from "../assets/dupayAssets/mobile-hand2.webp";
+import "../css/MoneyTransfer.css";
 
 
 const MoneyTransfer = () => {
   return (
-    <div className="container">
-      <p>Here’s what we offer</p>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+    <div className="container d-flex flex-column align-items-center mt-5 offer ">
+      <p>Here's what we offer</p>
+      <div className="row row-cols-1 row-cols-md-2 g-3">
         {/* 1 col */}
         <div className="col">
           <div className="card h-100">
@@ -26,33 +27,33 @@ const MoneyTransfer = () => {
           </div>
         </div>
         {/* 3 col */}
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100">
             <img src={global} className="card-img-top" alt="global" />
             <h5 className="card-title">Instant money transfer</h5>
             <p className="card-text"> Send money right away, anytime to more than 200 destinations around the world, from your phone. It’s fast, easy, and always there when you need it the most.</p>
           </div>
-        </div>
+        </div> */}
         {/* 4 col */}
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100">
             <img src={mobileChat} className="card-img-top" alt="mobileChat" />
           </div>
-        </div>
+        </div> */}
         {/* 5 col */}
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100">
             <img src={mobilepayment} className="card-img-top" alt="mobilepayment" />
           </div>
-        </div>
+        </div> */}
         {/* 6 col */}
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100">
-            <img src={mobile}className="card-img-top" alt="mobile" />
+            <img src={mobile} className="card-img-top" alt="mobile" />
             <h5 className="card-title">Payments made simple</h5>
             <p className="card-text">Simplify your everyday life with our app. Effortlessly pay your bills or top-up your mobile in just few steps.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
