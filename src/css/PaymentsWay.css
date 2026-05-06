@@ -34,10 +34,14 @@
     background-color: rgb(113, 185, 212);
     color: white;
     font-size: 19px;
-    
+    border-color:rgb(113, 185, 212) ;
+    outline: none;
 
 }
 
 .cardBox {
    row-gap: 14px;
+}
+.cardBox .card .card-title {
+    line-height: 25px;
 }
