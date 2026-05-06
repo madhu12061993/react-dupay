@@ -1,6 +1,7 @@
 import safe from "../assets/dupayAssets/safe.png";
 import secure from "../assets/dupayAssets/seccure.png";
 import bank from "../assets/dupayAssets/bank.png";
+import "../css/Factor.css";
 
 
 const data = [
@@ -17,13 +18,13 @@ const data = [
   }
 ];
 
-const Factor = () => {
+const  Factor = () => {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row ">
         {data.map((item, index) => (
-          <div className="col d-flex" key={index}>
-            <div>
+          <div className="col d-flex factor" key={index}>
+            <div className="align-self-center mx-3">
               <img src={item.img} alt="secure" />
             </div>
             <p> {item.text}</p>
