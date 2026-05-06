@@ -1,0 +1,43 @@
+.paymentfluid {
+    background-image: linear-gradient(to right, #4BA6C9, #4BA6C9, #684CB9, #9F37AF);
+    position: relative;
+    height: 500px;
+}
+
+.visaImage {
+    position: absolute;
+    left: 640px;
+    width: 650px;
+    bottom: 10px;
+    width: 725px;
+    height: 490px;
+}
+
+.payments {
+    position: relative;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.payments .headding {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.payments .subHeading {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.cardBox .card {
+    background-color: rgb(113, 185, 212);
+    color: white;
+    font-size: 19px;
+    
+
+}
+
+.cardBox {
+   row-gap: 14px;
+}

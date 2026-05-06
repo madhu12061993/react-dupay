@@ -1,7 +1,29 @@
-.offer  p{
+.offer  .heading{
+    width: 100%;
     color: #041E50;
     font-weight: bold;
     font-size: 44px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 100px;
+}
+.card {
+  width: 80%;
+}
+.cardImage  .card{
+    /* width: 300px; */
+    border-radius: 200px;
+}
+.offer h5 {
+    color: hsl(219, 90%, 16%);
+    font-size: 44px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ 
+}
+.image img{
+    /* height: 10px;
+    width: 10px; */
+}
+.card-text {
+    color: rgb(43, 30, 80);
 }
