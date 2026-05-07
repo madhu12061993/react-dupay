@@ -1,0 +1,44 @@
+.footerColor { 
+     background-image: linear-gradient(to left top  ,#7E1975 , #542077 , #2A2778, #102A78); 
+     color: white;
+} 
+.dupay {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.dupay p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 44px;
+    margin-right: 160px;
+}
+.dupay span {
+    border: 1px solid white;
+    padding-inline: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.homeColor {
+    font-weight: 400;
+    font-size: 20px;
+}
+.statement {
+    margin-left: -40px;
+}
+.socialMedia {
+    padding-top: 55px;
+}
+.socialMedia img{
+height: 30px;
+width: 30px;
+margin-right: 30px;
+}
+.apps {
+    margin-left: -180px;
+}
+.apps p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.socialMediaApps {
+    margin-bottom: 50px;
+}

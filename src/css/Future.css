@@ -1,0 +1,24 @@
+.futureToday {
+    background-image: linear-gradient(to right , #F4FBFD , #FCF5FC);
+    margin-top: 80px;
+    padding-block: 100px;
+}
+.futureToday h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #041E6C;
+}
+.futureToday span {
+    position: relative;
+    left: 200px;
+}
+.futureToday p {
+    color: #2B1E50;
+    padding-left: 25px;
+}
+.futureToday img {
+    padding-left: 15px;
+    height: 150px;
+    width: 150px;
+}
