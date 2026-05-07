@@ -1,11 +1,12 @@
     import moneyTransfer from "../assets/dupayAssets/mobilehand3.webp";
+    import "../css/InternationalMoneyTransfer.css";
 
 
 const InternationalMoneyTransfer = () => {
   return (
-    <div className="container">
+    <div className="container InterNational">
       <div className="row">
-      <div className="col">
+      <div className="col-6 inter">
         <h3>Get started in 3 simple steps</h3>
         <ul>
           <li>Download the du Pay app.</li>
@@ -14,7 +15,7 @@ const InternationalMoneyTransfer = () => {
         </ul>
         <p>You are now ready to send money nearly anywhere with du Pay.</p>
       </div>
-      <div className="col">
+      <div className="col interImg">
         <img src={moneyTransfer} alt="InternationalMoneyTransfer" />
       </div>
       </div>
