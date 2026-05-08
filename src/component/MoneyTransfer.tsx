@@ -13,29 +13,29 @@ const MoneyTransfer = () => {
       <div className="headingParnt">
         <p className="heading">Here's what we offer</p>
       </div>
-      <div className="d-flex flex-row justify-content-center">
+      <div className="cardArangement">
         {/* 1 col */}
-        <div className="col-4 cardImage">
+        <div className="col-5 cardImage ">
           <div className="card  ">
             <img src={mobilehand} className="card-img-top" alt="mobilehand" />
           </div>
         </div>
         {/* 2 col */}
-        <div className="col-4">
+        <div className="col-5 cardImage cardBackground">
           <div className="card h-100">
             <div className="image">
-              <img src={svgAX} alt="svgAX" />
+              <img src={svgAX} alt="svgAX"/>
             </div>
             <h5 className="card-title">A multilingual experience</h5>
             <p className="card-text">Language barriers are a thing of the past. Navigate our app in Arabic, English, Hindi, Malayalam, Tamil and Bangla.</p>
           </div>
         </div>
       </div>
-           <div className="d-flex flex-row justify-content-center">
+      <div className="cardArangement">
         {/* 3 col */}
-        <div className="col-4">
+        <div className="col-5  cardImage cardBackground">
           <div className="card h-100">
-            <div>
+            <div className="image">
               <img src={global} alt="global" />
             </div>
             <h5 className="card-title">Instant money transfer</h5>
@@ -43,23 +43,23 @@ const MoneyTransfer = () => {
           </div>
         </div>
         {/* 4 col */}
-        <div className="col-4">
+        <div className="col-5 cardImage cardePng">
           <div className="card h-100">
             <img src={mobileChat} className="card-img-top" alt="mobileChat" />
           </div>
         </div>
       </div>
-            <div className="d-flex flex-row justify-content-center">
+      <div className="cardArangement">
         {/* 5 col */}
-        <div className="col-4">
+        <div className="col-5 cardImage">
           <div className="card h-100">
             <img src={mobilepayment} className="card-img-top" alt="mobilepayment" />
           </div>
         </div>
         {/* 6 col */}
-        <div className="col-4">
+        <div className="col-5 cardImage cardBackground">
           <div className="card h-100">
-            <div>
+            <div className="image">
               <img src={mobile} alt="mobile" />
             </div>
             <h5 className="card-title">Payments made simple</h5>

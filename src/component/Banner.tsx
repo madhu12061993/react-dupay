@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="col content">
             <h5 className="card-title bannerTitle text-white">Send money back <br />home with du Pay</h5>
             <p className="card-text bannerText text-white">Send money, pay bills, and manage your money—all in one app.</p>
-            <div className="card bg-transparent contentCard rounded-4  ">
+            <div className="card bg-transparent contentCard rounded-4 border border-white-300/20">
               <div className="d-flex ">
                 <div className="col-9 CardText">
                   <p className="text-white fw-bold">Try it out!</p>
