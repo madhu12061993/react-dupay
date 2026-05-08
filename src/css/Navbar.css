@@ -1,13 +1,33 @@
 .duepayLogo {
     height: 60px;
-    width: 120px; 
+    width: 120px;
 }
+
+.dupayScroll {
+    height: 80px;
+    width: 230px;
+    margin-left: -50px;
+}
+
 .nav-color {
-    background-image: linear-gradient(to right , rgb(44, 128, 227) , rgb(3, 222, 255));
+    background-image: linear-gradient(to right, rgb(44, 128, 227), rgb(3, 222, 255));
+    transition: all 0.3s ease;
+    /* padding: 12px 0; */
 }
+
+.navColor {
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.navContactColor {
+    color: #041E6C;
+}
+
 .navBtn {
     margin-block: 15px;
 }
+
 .NavContact {
     position: relative;
     top: 25px;
