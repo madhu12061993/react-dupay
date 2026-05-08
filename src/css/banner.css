@@ -1,0 +1,70 @@
+ .moneyBackground {
+     background-image: linear-gradient(to left bottom, #03DEFF, #DA02DF);
+     height: 630px;
+     width: 100%;
+     overflow-x: hidden;
+ }
+
+ .content {
+     position: relative;
+     top: 120px;
+ }
+
+ .Qrcode {
+     height: 100px;
+     width: 100px;
+     margin-block: 5px;
+     padding-right: 15px;
+ }
+
+ .content .bannerTitle {
+     font-size: 52px;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .content .bannerText {
+     font-size: 32px;
+     line-height: 38px;
+ }
+
+ .moneyBackground .contentCard {
+     width: 365px;
+     border-radius: 30px;
+     border: 1px solid rgb(255, 255, 255,0.3) ;
+ }
+
+ .CardText {
+     line-height: 15px;
+     padding-block: 25px;
+     padding-left: 35px;
+     padding-right: 22px;
+ }
+
+ .CardText p {
+     margin-bottom: 12px;
+ }
+
+ .CardText span {
+     font-size: 12px;
+
+ }
+
+ .banner img {
+    position: absolute;
+    bottom: 10px;
+     height: 640px;
+     width: 630px;
+     z-index: 2;
+ }
+
+ .circle {
+     border-radius: 50%;
+     height: 520px;
+     width: 630px;
+     background-image: linear-gradient(to left bottom, #00dcff, #922bcb);
+     z-index: 3;
+     position: absolute;
+     top: 10px;
+     /* top: -20px; */
+ }
